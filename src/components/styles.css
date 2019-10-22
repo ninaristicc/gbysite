@@ -1,0 +1,11 @@
+h1, p{
+    color: teal;
+}
+h3{
+    font-size: 40px;
+    color: rgb(58, 139, 163);
+}
+img{
+    width: 650px;
+    height: 400px;
+}
