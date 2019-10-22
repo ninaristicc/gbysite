@@ -1,11 +1,123 @@
-h1, p{
-    color: teal;
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #52658f;
+}
+p{
+    color: #333a56;
+}
+h1{
+    color: #52658f;
 }
 h3{
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(58, 139, 163);
 }
 img{
     width: 650px;
-    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content{
+    margin-top: 50px;
+    padding: 0 30px;
+    text-align: justify;
+}
+/* navbar  */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    height: 40px;
+    background-color: #333a56;
+    z-index: 1;
+  } 
+  .nav-center{
+    height: 50px;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .nav-icon {
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+  }
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--mainTransition);
+    list-style-type: none;
+  }
+  .nav-links a {
+    text-decoration: none;
+    padding: 1rem 0;
+    color: var(--mainBlack);
+    transition: var(--mainTransition);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: var(--mainSpacing);
+  }
+  .nav-links a:hover {
+    color: #e8e8e8;
+  }
+  .nav-links .show-nav{
+    display: none;
+  }
+  .show-nav {
+    background-color: #333a56;
+    height: auto;
+    text-align: center;
+  }
+  .show-nav li{
+    line-height: 30px;
+    padding-bottom: 10px; 
+  }
+  .show-nav li:last-child{
+    padding-bottom: 20px;
+  }
+  .logo{
+    position: relative;
+    top:0;
+  }
+/* navbar kraj */
+@media screen and (min-width: 1618px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    /* max-width: 1500px; */
+    margin: 0 auto;
+    display: flex;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    margin-bottom: 10px;
+  }
+  .navbar{
+    height: 30px;
+    padding-bottom: 5px;
+  }
 }
