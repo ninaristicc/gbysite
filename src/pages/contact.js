@@ -1,11 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 
 export default () => (
     <Layout>
-        <PageTransition>
     <div className="content">
     <h1>FAQs</h1>
     <h3>How to get money?</h3>
@@ -17,7 +15,6 @@ export default () => (
 </p>
 <img className="imgs" src="https://ccffcerritos.org/wp-content/uploads/2019/05/contact-us.jpg" alt=""></img>
   </div>
-  </PageTransition>
   </Layout>
 )
 

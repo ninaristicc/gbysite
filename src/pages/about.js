@@ -1,11 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
-import PageTransition from 'gatsby-plugin-page-transitions';
-
 
 export default () => (
     <Layout>
-        <PageTransition>
     <div className="content">
     <h1>About get money</h1>
     <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. </p>
@@ -20,6 +17,5 @@ Purus in massa tempor nec feugiat nisl. Semper feugiat nibh sed pulvinar proin g
 
 Tellus pellentesque eu tincidunt tortor aliquam nulla. Semper quis lectus nulla at volutpat. Vulputate enim nulla aliquet porttitor lacus. Mollis aliquam ut porttitor leo a diam sollicitudin. At lectus urna duis convallis convallis tellus id interdum. Suspendisse faucibus interdum posuere lorem ipsum. Odio ut sem nulla pharetra diam. Sed arcu non odio euismod lacinia at. Convallis convallis tellus id interdum velit. Aliquet lectus proin nibh nisl condimentum id. Felis donec et odio pellentesque diam volutpat commodo sed. Mus mauris vitae ultricies leo integer.</p>
   </div>
-  </PageTransition>
   </Layout>
 )

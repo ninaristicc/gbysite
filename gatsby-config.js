@@ -5,7 +5,5 @@
  */
 
 module.exports = {
-  plugins: [
-    'gatsby-plugin-page-transitions'
-  ]
+  /* Your site config here */
 }

@@ -1,11 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 
 export default () => (
     <Layout>
-      <PageTransition>
         <div className="content">
           <h1>Get money!</h1>
       <img className="imgs" src="https://www.impactbnd.com/hubfs/17-award-winning-website-designs-02.jpg" alt="" />
@@ -17,6 +15,5 @@ export default () => (
 <img className="imgs" src="https://webfoundation.org/docs/2017/03/March-12-Letter.jpg" alt=""></img>
 <p>Urna id volutpat lacus laoreet non curabitur gravida arcu ac. In aliquam sem fringilla ut morbi tincidunt augue. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Nec tincidunt praesent semper feugiat nibh. Convallis aenean et tortor at risus viverra adipiscing at. Mauris a diam maecenas sed enim ut sem viverra aliquet. Posuere morbi leo urna molestie at elementum eu facilisis sed. Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Lacus suspendisse faucibus interdum posuere lorem ipsum. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Ac auctor augue mauris augue neque. Et magnis dis parturient montes nascetur. Vitae congue eu consequat ac felis donec. Etiam erat velit scelerisque in dictum non consectetur a. Tellus in hac habitasse platea. Et magnis dis parturient montes nascetur ridiculus mus mauris.</p>
       </div>
-      </PageTransition>
     </Layout>
   )
