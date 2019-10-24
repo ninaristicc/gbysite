@@ -31,6 +31,7 @@ export default function Header() {
 
   return (
     <header className="Header">
+      <img src={require("../images/logo.png")} className="Logo" alt="logo" />
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={150}
