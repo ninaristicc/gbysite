@@ -11,20 +11,24 @@ html {
 }
 p{
     color: #333a56;
-    font-size: 12px;;
+    font-size: 15px;
+    padding: 10px;
 }
 h1{
     color: #52658f;
     padding-top: 30px;
-    font-size: 25px;
+    padding-left: 15px;
+    font-size: 40px;
 }
 h2{
   color: #52658f;
-  font-size: 20px;
+  font-size: 30px;
+  padding-left: 15px;
 }
 h3{
   color: #52658f;
-  font-size: 18px;
+  font-size: 25px;
+  padding-left: 15px;
 }
 hr{
   background-color: #0020a1;
@@ -44,15 +48,14 @@ hr{
 
 .wrap{
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 800px;
   padding: 0 1rem;
   background-color: #f7f5e6;
    height: 100%;
    padding-bottom: 30px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .wrap{
     width: 100%;
   }
-
 }
