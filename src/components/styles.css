@@ -7,7 +7,9 @@ html {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #52658f;
+    background-image: url(https://images.fineartamerica.com/images-medium-large-5/light-blue-vector-triangle-background-design-geometric-background-in-origami-style-with-gradient-vector-phochi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 p{
     color: #333a56;
@@ -16,19 +18,30 @@ p{
 }
 h1{
     color: #52658f;
-    padding-top: 30px;
+    padding: 20px;
     padding-left: 15px;
     font-size: 40px;
+    margin: 0;
+    text-align: left;
 }
 h2{
   color: #52658f;
   font-size: 30px;
-  padding-left: 15px;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 40px;
+  padding: 15px 10px;
+  text-align: left;
 }
 h3{
   color: #52658f;
   font-size: 25px;
   padding-left: 15px;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 40px;
+  padding: 15px 10px;
+  text-align: left;
 }
 hr{
   background-color: #0020a1;
